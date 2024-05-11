@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: my font;
+   
+}
+@font-face {
+    font-family:my font ;
+    src: url(./Assets/Pirate\ Scroll.otf);
+}
+
+body{
+    background: #000000;
+    
+}
+
+#header{
+    
+    text-align: center;
+}
+header{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#jollyroger{
+    height: 199px;
+    width: 225px;
+    background-image: url(./Assets/Images/jollyroger.jpeg);
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.icons{
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    
+}
+
+#luffy{
+    display: inline-block;
+    background-image: url(./Assets/Images/luffy.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 3px;
+}
+
+#zoro{
+    background-image: url(./Assets/Images/zoro.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 294px;
+    
+}
+
+#sanji{
+    background-image: url(./Assets/Images/sanji.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 585px;
+}
+#brook{
+    background-image: url(./Assets/Images/brook.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 876px; 
+}
+
+#franky{
+    background-image: url(./Assets/Images/franky.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 1167px; 
+}
+
+
+#usoop{
+    background-image: url(./Assets/Images/usopp.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 1458px; 
+}
+
+#nami{
+    background-image: url(./Assets/Images/Nami.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 1750px; 
+}
+
+#chopper{
+    background-image: url(./Assets/Images/chopper.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 2041px; 
+}
+
+#jimbei{
+    background-image: url(./Assets/Images/jimbei.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 2332px; 
+}
+
+#robin{
+    background-image: url(./Assets/Images/robin.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 2623px; 
+}
+
+#merry{
+    background-image: url(./Assets/Images/merry.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 2914px; 
+}
+
+#sunny{
+    background-image: url(./Assets/Images/thousand\ sunny.jpeg);
+    background-size:cover ;
+    position: relative;
+    bottom: 3205px; 
+}
+
+.luffyname{
+    background-color: #FBC920;
+    position:relative;
+    left: 253px;
+    bottom: 308px;
+    top: 306;
+    height: 300px;
+    color: black;
+}
+
+.zoroname{
+    background-color: #39713D;
+    position:relative;
+    left: 253px;
+    bottom: 595px;
+    height: 300px;
+    color: black;
+}
+
+.sanjiname{
+    position:relative;
+    left: 253px;
+    bottom: 886px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.brookname{
+    background-color: #ffffff;
+    position:relative;
+    left: 253px;
+    bottom: 1177px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.frankyname{
+    background-color: #B5C0C9;
+    position:relative;
+    left: 253px;
+    bottom: 1468px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.usoopname{
+    background-color: #7cb06d;
+    position:relative;
+    left: 253px;
+    bottom: 1759px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.naminame{
+    background-color:#0063B2 ;
+    position:relative;
+    left: 253px;
+    bottom: 2051px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.choppername{
+    background-color: #A07855;
+    position:relative;
+    left: 253px;
+    bottom: 2342px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.jimbeiname{
+    background-color: #65c2f5;
+    position:relative;
+    left: 253px;
+    bottom: 2633px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.robinname{
+    background-color: #BBC2CC;
+    position:relative;
+    left: 253px;
+    bottom: 2924px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.merryname{
+    background-color: white;
+    position:relative;
+    left: 253px;
+    bottom: 3215px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.sunnyname{
+    background-color: #FFAE42;
+    position:relative;
+    left: 253px;
+    bottom: 3506px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.text{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.text2{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: 	rgb(71,46,23)
+}
+.text4  { 
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+.textsanji{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+.textluffy{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #FF0000;
+}
+
+.textzoro{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #02343F;
+}
+
+.textbrook{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+.textfranky{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #50586C;
+}
+
+.textusoop{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #2C5F2D;
+}
+
+.textnami{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #9CC3D5;
+}
+
+.textchopper{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #331B3F;
+}
+
+.textjimbei{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #195190;
+}
+.textrobin{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: #2D2926;
+}
+.textmerry{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+.textsunny{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
